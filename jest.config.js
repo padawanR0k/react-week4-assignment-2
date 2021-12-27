@@ -1,4 +1,5 @@
 module.exports = {
+  clearMocks: true,
   setupFilesAfterEnv: [
     'jest-plugin-context/setup',
     './jest.setup',
