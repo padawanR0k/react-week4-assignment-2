@@ -6,7 +6,7 @@ import { restaurant } from './fixtures/restaurant';
 jest.mock('react-redux');
 
 describe('App', () => {
-  test('새로운 레스토랑을 추가한다.', () => {
+  it('새로운 레스토랑을 추가한다.', () => {
     useSelector.mockImplementation((selector) => selector({
       restaurant,
       restaurants: [],
